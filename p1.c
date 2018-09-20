@@ -10,7 +10,7 @@ int main()
 {
    int estado=0, i=0;
    char bits[256];
-   scanf("%s", &bits);
+   scanf("%s", bits);
    while(bits[i]!='\0'){
     if(estado == 0 && bits[i]== '1'){
         estado = 1;
